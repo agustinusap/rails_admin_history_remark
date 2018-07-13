@@ -1,0 +1,11 @@
+
+en:
+  admin:
+    actions:
+      history_remark:
+        title: "History Remark"
+        menu: "History Remark for %{model_label} '%{object_label}'"
+        breadcrumb: "History Remark"
+        link: "History Remark"
+        bulk_link: "History Remark selected %{model_label_plural}"
+        done: "History Remarked"
