@@ -5,18 +5,8 @@ module RailsAdminHistoryRemark
 end
 
 require 'rails_admin/config/actions'
+require 'rails_admin/extension'
+require 'rails_admin/extensions/paper_trail'
 
-module RailsAdmin
-  module Config
-    module Actions
-      class HistoryRemark < Base
-        RailsAdmin::Config::Actions.register(self)
-        
-        register_instance_option :object_level do
-          true
-        end
-      end
-    end
-  end
-end
-
+require "rails_admin_history_remark/extensions/paper_trail/auditing_adapter"
+require "rails_admin_history_remark/config/actions/history_index"

@@ -1,11 +1,12 @@
-
 en:
   admin:
-    actions:
-      history_remark:
-        title: "History Remark"
-        menu: "History Remark for %{model_label} '%{object_label}'"
-        breadcrumb: "History Remark"
-        link: "History Remark"
-        bulk_link: "History Remark selected %{model_label_plural}"
-        done: "History Remarked"
+    history_remark:
+      remark: "Remark"
+      changes: "Changes"
+      cancel: "Cancel"
+      table_headers:
+        origin: "Origin"
+        changes: "Changes"
+        field: "Field"
+        view_changes: "View changes"
+      version_not_found: "Version does not exist."
