@@ -1,0 +1,12 @@
+en:
+  admin:
+    history_remark:
+      remark: "Remark"
+      changes: "Changes"
+      cancel: "Cancel"
+      table_headers:
+        origin: "Origin"
+        changes: "Changes"
+        field: "Field"
+        view_changes: "View changes"
+      version_not_found: "Version does not exist."
