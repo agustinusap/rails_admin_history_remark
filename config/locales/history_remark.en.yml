@@ -3,7 +3,6 @@ en:
     history_remark:
       remark: "Remark"
       changes: "Changes"
-      cancel: "Cancel"
       table_headers:
         origin: "Origin"
         changes: "Changes"
